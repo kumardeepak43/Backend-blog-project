@@ -1,0 +1,467 @@
+/* Left side div____________________________________________________________________________________________________________ */
+.BollywoodHeading {
+    position: absolute;
+    font-weight: bold;
+    font-size: 40px;
+    top: 210px;
+    left: 186px;
+    border-bottom: 3px solid #F08080;
+    width: 775px;
+}
+
+.mainDiv {
+    position: absolute;
+    top: 330px;
+    left: 186px;
+}
+
+.img {
+    width: 165px;
+    height: 255px;
+    margin-right: 10px;
+
+}
+
+.subLink {
+    text-decoration: none;
+    color: black;
+
+}
+
+.subDiv {
+    padding: 10px 10px 10px 10px;
+    border: 3px solid #F0F0F0;
+    width: 750px;
+    height: 255px;
+    text-align: justify;
+    margin-bottom: 20px;
+    background-color: #F0F0F0;
+
+}
+
+.subDivHeading {
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    margin-top: -250px;
+    margin-left: 180px;
+}
+
+.subDivPra {
+    display: flex;
+    margin-left: 180px;
+    margin-top: -30px;
+
+}
+
+.posting {
+    margin-left: 180px;
+    color: #8a8888;
+}
+
+/* Right side div For First Rank_______________________________________________________________________________________________ */
+
+.mainDivTwo {
+    padding: 10px 10px 10px 10px;
+    position: absolute;
+    border: 2px solid #F0F0F0;
+    top: -100px;
+    left: 810px;
+    width: 390px;
+}
+
+.divTwoHeading {
+    border-bottom: 3px solid #F08080;
+    width: 390px;
+}
+
+.imgTwo {
+    width: 200px;
+    height: 295px;
+    margin-right: 10px;
+
+}
+
+.subLinkTwo {
+    text-decoration: none;
+    color: black;
+
+}
+
+.subDivTwo {
+    padding: 10px 10px 0px 10px;
+    border-bottom: 3px solid #F0F0F0;
+    width: 360px;
+}
+
+
+.subDivRank {
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    font-size: 150px;
+    margin-top: -250px;
+    margin-left: 240px;
+    color: #e4e2e2;
+}
+
+.subDivHeadingTwo {
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    margin-top: -10px;
+}
+
+.subDivPraTwo {
+    display: flex;
+    margin-top: -40px;
+    color: #a9a7a7;
+}
+
+.advertisement {
+    padding: 10px 10px 10px 10px;
+    position: absolute;
+    text-align: center;
+    text-decoration: underline;
+    border: 2px solid #F0F0F0;
+    top: 1270px;
+    left: 810px;
+    width: 390px;
+    height: 800px;
+
+}
+
+
+
+
+
+
+/* Right side div For Other Rank_______________________________________________________________________________________________  */
+
+.imgThree {
+    width: 120px;
+    height: 190px;
+    margin-right: 10px;
+
+}
+
+.subLinkThree {
+    text-decoration: none;
+    color: black;
+}
+
+.subDivThree {
+    padding: 10px 10px 0px 10px;
+    border-bottom: 3px solid #F0F0F0;
+    width: 360px;
+}
+
+
+.subDivRankThree {
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    font-size: 90px;
+    margin-top: -190px;
+    margin-left: 200px;
+    color: #e4e2e2;
+}
+
+.subDivHeadingThree {
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    margin-top: -30px;
+    margin-left: 130px;
+}
+
+.subDivPraThree {
+    display: flex;
+    margin-top: -40px;
+    margin-left: 130px;
+    color: #a9a7a7;
+}
+
+
+
+/* ________________________________________________________________________________________________________________________*/
+.pic1 {
+    position: relative;
+    top: 5px;
+    left: 90px;
+    width: 65%;
+    height: 520px;
+    border-radius: 20px;
+    float: left;
+    
+}
+
+.pic2 {
+    display: block;
+    position: relative;
+    top: 5px;
+    left: 110px;
+    margin-bottom: 20px;
+    width: 19.1%;
+    height: 250px;
+    border-radius: 20px;
+}
+
+.pic3 {
+    position: relative;
+    top: 5px;
+    left: 110px;
+    width: 19.1%;
+    height: 250px;
+    border-radius: 20px;
+}
+
+.homeDiv1 {
+    position: relative;
+    border-radius: 20px;
+    margin: 15px 2px 2px 90px;
+    border: 3px solid #F0F0F0;
+    width: 85%;
+    background-color: #F0F0F0;
+    padding: 3px 3px 3px 3px;
+}
+
+.homeHeading1 {
+    border-bottom: 2px solid black;
+    width: 93%;
+    position: relative;
+    top: 0px;
+    left: 30px;
+
+}
+
+
+@media screen and (max-width: 480px) {
+    .BollywoodHeading {
+        position: relative;
+        font-weight: bold;
+        font-size: 25px;
+        top: 0px;
+        left: 10px;
+        border-bottom: 3px solid #F08080;
+        width: 97%;
+
+    }
+
+    .mainDiv {
+        position: relative;
+        top: 0px;
+        left: 10px;
+    }
+
+    .subDiv {
+        padding: 7px 7px 7px 7px;
+        border: 3px solid #F0F0F0;
+        width: 91%;
+        height: 130px;
+        text-align: justify;
+        margin-bottom: 15px;
+        background-color: #F0F0F0;
+    }
+
+    .img {
+        width: 80px;
+        height: 130px;
+        margin-right: 10px;
+        float: left;
+    }
+
+    .subDivHeading {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 15px;
+        position: relative;
+        margin-top: 0px;
+        margin-left: 90px;
+    }
+
+    .subDivPra {
+        position: relative;
+        margin-left: 90px;
+        font-size: 8px;
+    }
+
+    #p2 {
+        position: relative;
+        top: -5px;
+    }
+
+    #p3 {
+        position: relative;
+        top: -2px;
+        left: 0px;
+    }
+
+    .posting {
+        position: relative;
+        top: -5px;
+        font-size: 10px;
+        margin-left: 90px;
+        color: #bab9b9;
+    }
+
+    /* ______________________________________________________________________________________________________________ */
+
+    .mainDivTwo {
+        padding: 10px 10px 10px 10px;
+        position: relative;
+        border: 2px solid #F0F0F0;
+        top: 0px;
+        left: 0px;
+        width: 90%;
+    }
+
+    .divTwoHeading {
+        border-bottom: 3px solid #F08080;
+        font-size: 20px;
+        width: 100%;
+
+    }
+
+    .imgTwo {
+        width: 120px;
+        height: 190px;
+        margin-right: 10px;
+        float: left;
+    }
+
+    .subDivRank {
+        position: relative;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 100px;
+        margin-top: 0px;
+        margin-left: 0px;
+        left: 20px;
+        top: 10px;
+        color: #e4e2e2;
+        width: 200px;
+        border-bottom: 2px solid #e4e2e2;
+        width: 52%;
+    }
+
+    .subDivTwo {
+        padding: 10px 10px 0px 10px;
+        border-bottom: 3px solid #F0F0F0;
+        width: 95%;
+    }
+
+
+
+    .subDivHeadingTwo {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 15px;
+        margin-top: -30px;
+    }
+
+    .subDivPraTwo {
+        font-size: 12px;
+        margin-top: -33px;
+        color: #a9a7a7;
+    }
+
+    /* ________________________________________________________________________________________________________________ */
+
+    .imgThree {
+        width: 90px;
+        height: 130px;
+        margin-right: 10px;
+        float: left;
+    }
+
+    .subDivThree {
+        padding: 10px 10px 0px 10px;
+        border-bottom: 3px solid #F0F0F0;
+        width: 95%;
+    }
+
+
+    .subDivRankThree {
+        position: relative;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 50px;
+        margin-top: 0px;
+        margin-left: 0px;
+        left: 50px;
+        color: #e4e2e2;
+        border-bottom: 2px solid #e4e2e2;
+        width: 52%;
+    }
+
+    .subDivHeadingThree {
+        font-family: 'Times New Roman', Times, serif;
+        position: relative;
+        font-size: 12px;
+        margin-top: 0px;
+        margin-left: 0px;
+        top: 10px;
+    }
+
+    .subDivPraThree {
+        position: relative;
+        margin-top: -22px;
+        margin-left: 80px;
+        font-size: 12px;
+        color: #a9a7a7;
+    }
+
+    /* ________________________________________________________________________________________________________ */
+
+    .pic1{
+        position: relative;
+        top: 5px;
+        left: 0px;
+        width: 100%;
+        height: 210px;
+        border-radius: 20px;
+    }
+    
+    .pic2{
+        display: none;
+        position: relative;
+        top: 10px;
+        left: 0px;
+        width: 100%;
+        height: 230px;
+        border-radius: 20px;
+    }
+    
+    .pic3{
+        position: relative;
+        top: 10px;
+        left: 0px;
+        width: 100%;
+        height: 230px;
+        border-radius: 20px;
+    }
+
+    .homeDiv1 {
+        flex-wrap: wrap;
+        border-radius: 20px;
+        margin: 20px 0px 0px 0px;
+        border: 3px solid #F0F0F0;
+        width: 98%;
+        background-color: #F0F0F0;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .homeArticleDiv1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    
+    }
+    
+    .homeHeading1 {
+
+        border-bottom: 2px solid black;
+        font-size: 20px;
+        width: 93%;
+        top: 0px;
+        left: 10px;
+    
+    }
+    
+    .advertisement {
+        display: none;
+    }
+
+}
